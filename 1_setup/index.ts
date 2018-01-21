@@ -5,4 +5,4 @@ const myPet: Animal = {
   name: 'Bucky',
   species: 'dog'
 }
-console.log(`Hello, ${myPet.name}`)
+console.log(`Hello, ${myPet.name}!!`)
