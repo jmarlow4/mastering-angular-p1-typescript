@@ -1,4 +1,3 @@
-
 // Arrays...
 {
   const myStringArr: string[] = ['0', '1', '2']
@@ -12,7 +11,9 @@
 
   myString = myStringArr[0]
   myNum = +myStringArr[1]
-  console.log(`${myString} is a ${typeof myString} by ${myNum} is a ${typeof myNum}!`)
+  console.log(
+    `${myString} is a ${typeof myString} by ${myNum} is a ${typeof myNum}!`
+  )
 }
 
 // Objects...
@@ -22,6 +23,7 @@
   const mySecondObject: {} = { foo: 'bar' }
 
   let myAny: any = 42
+  myAny = { foo: 'bar' }
   myAny = 'foo'
   myAny = true
 }

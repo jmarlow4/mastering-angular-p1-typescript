@@ -13,6 +13,7 @@
       ],
       "no-console": [false],
       "interface-name": [false],
-      "trailing-comma": [false]
+      "trailing-comma": [false],
+      "no-consecutive-blank-lines": [false]
     }
 }
