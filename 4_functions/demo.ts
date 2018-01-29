@@ -1,13 +1,18 @@
 {
-  function addTwo(num1: number, num2: number): number {
-    return num1 + num2
+  // function declaration
+  function concatTwo(str1: string, str2?: string): string {
+    return str1 + ( str2 || '' )
   }
 
-  let addThree: (num1: number, num2: number, num3: number) => number
+  // function static typing
+  let concatThree: (str1: string, str2: string, str3: string) => string
 
-  addThree = (num1: number, num2: number, num3: number) => {
-    return num1 + num2 + num3
+  // function expression definition
+  concatThree = (str1: string, str2: string, str3: string): string => {
+    return str1 + str2 + str3
   }
 
-  console.log(addTwo(2, 3))
+  console.log(concatTwo('Hello'))
+  console.log(concatTwo('Hello', '!!!'))
+  console.log(concatThree('Hello', ', ', 'TypeScript!'))
 }
