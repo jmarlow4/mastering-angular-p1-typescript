@@ -1,5 +1,5 @@
 {
-  // 1. Declare a typed array that only recieves numbers.
+  // 1. Declare a typed array that only receives numbers.
   //    Assign it an array of 3 numbers.
   const myNumArr: number[] = [30, 58, 14]
 
