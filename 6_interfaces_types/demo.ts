@@ -23,6 +23,5 @@
   const theirOtherDog: dog = 2
 
   const myDog = undefined
-  // myDog.name = 'Porkchop'
 
 }
