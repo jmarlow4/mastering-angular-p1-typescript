@@ -1,6 +1,6 @@
 {
-  // Enumerations (enums) aren't designed to store data. They're designed to 
-  // ENUMERATE a set of specific cases.
+  // Enumerations (enums) aren't designed to store data.
+  // They're designed to ENUMERATE a set of specific cases.
   enum Directions {
     Up,
     Down,
