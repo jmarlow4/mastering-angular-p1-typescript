@@ -1,28 +1,32 @@
-class Student implements Person {
-  public fullName: string
-  constructor(
-    public firstName: string,
-    public middleInitial: string,
-    public lastName: string
-  ) {
-      this.fullName = firstName + ' ' + middleInitial + ' ' + lastName
+{
+  interface Person {
+    firstName: string
+    lastName: string
+    fullName: string
+    introduceSelf(): void
   }
 
-  public introduceSelf() {
-    console.log(`Hello, my name is ${this.fullName}`)
+  class Student implements Person {
+    
+    private _fullName: string
+    
+    constructor(
+      public readonly firstName: string,
+      public middleInitial: string,
+      public lastName: string
+    ) {
+        this._fullName = firstName + ' ' + middleInitial + ' ' + lastName
+    }
+
+    get fullName(): string {
+      return this._fullName
+    }
+
+    public introduceSelf() {
+      console.log(`Hello, my name is ${this._fullName}`)
+    }
   }
+
+  const user = new Student('Jane', 'M.', 'User')
+  user.introduceSelf()
 }
-
-interface Person {
-  firstName: string
-  lastName: string
-  introduceSelf(): void
-}
-
-function greeter(person: Person) {
-  return 'Hello, ' + person.firstName + ' ' + person.lastName
-}
-
-let user = new Student('Jane', 'M.', 'User')
-
-user.introduceSelf()
