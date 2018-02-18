@@ -18,6 +18,13 @@
       "member-access": [false],
       "no-empty": [false],
       "object-literal-shorthand": [false],
-      "object-literal-sort-keys": [false]
+      "object-literal-sort-keys": [false],
+      "no-inferrable-types": [true],
+      "variable-name": [
+        true,
+        "ban-keywords",
+        "check-format",
+        "allow-leading-underscore**"
+     ],
     }
 }

@@ -22,6 +22,6 @@
   //    condiments on it! I suggest ketchup and mustard.
 
 
-  // 7. Evoke myHotDog's listCondiment's method and watch your condiments.
+  // 7. Invoke myHotDog's listCondiment's method and watch your condiments.
 
 }
