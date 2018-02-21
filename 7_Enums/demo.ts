@@ -15,7 +15,7 @@
 
   console.log(Directions.Up)
   /*
-  Colors = {
+  Directions = {
     '0': 'Up',
     '1': 'Down',
     '2': 'Left',
@@ -26,7 +26,7 @@
     Right: 3
   } */
 
-  // console.log(Directions[0] + ' -- ' + Directions.Up)
+  console.log(Directions[0] + ' -- ' + Directions.Up)
   // Up -- 0
 
   // Use const for a performance bump, but beware!
@@ -37,18 +37,18 @@
     Spades
   }
 
-  // let myCard: CardSuits = CardSuits.Diamonds
+  let myCard: CardSuits = CardSuits.Diamonds
 
-  // myCard = CardSuits.Spades
+  myCard = CardSuits.Spades
 
-  // if (myCard === CardSuits.Spades) {
-  //   console.log('Ace of Spades!')
-  // }
+  if (myCard === CardSuits.Spades) {
+    console.log('Ace of Spades!')
+  }
 
   // Won't work... defining your enum as constants means no "CardSuits" variable
   // will be compiled and so it won't be looked up in memory, resulting in
   // limited functionality, but a slight performance boost
-  // myCard = CardSuits[1]
+  myCard = CardSuits[1]
 
-  // console.log(myCard)
+  console.log(myCard)
 }

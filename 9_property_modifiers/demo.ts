@@ -16,7 +16,7 @@
     }
 
     public get hp(): number {
-      // https://medium.com/@amcdnl/angular-component-design-anti-patterns-14ed34c538a7
+      console.log(`health is currently at ${this._health}`)
       return this._health
     }
 
