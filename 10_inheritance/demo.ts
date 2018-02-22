@@ -29,6 +29,6 @@
   const dog = new Dog('Skippy')
   dog.bark()
   dog.move(10)
-  dog.eat('bacon')
+  // dog.eat('bacon')
   dog.bark()
 }
