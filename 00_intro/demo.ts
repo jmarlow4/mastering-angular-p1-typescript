@@ -1,12 +1,20 @@
-/*
-  1. Install ts-lint vs-code package
+{
+  const myVar: number = 42 /* becomes...
+  const myVar = 42 */
 
-  2. Install ts-lint and typescript npm packages with --save-dev
+  {
+    const returnStringLength = (myStr) => {
+      return myStr.length
+    }
 
-  3. Set up the tslint.json, .gitignore and .editorconfig files,
-     and install editorconfig-vscode package
+    console.log(returnStringLength(myVar))
+  }
 
-  4. Write your first line of code - "Hello, world!"
-*/
+  {
+    const returnStringLength = (myStr: string) => {
+      return myStr.length
+    }
 
-console.log('Hello, world!!')
+    console.log(returnStringLength('foo'))
+  }
+}

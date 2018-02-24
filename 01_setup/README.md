@@ -1,7 +1,7 @@
 # Part 1 - TypeScript
-## 0 - Intro to a TypeScript Project
+## 0 - Setting Up the TypeScript Project
 
-TypeScript will solve all of your problems and help you achieve your wildest dreams.
+Helpful tools to have in a TypeScript project
 
 1. Clone this [repo!](https://github.com/jmarlow4/mastering-angular-p1-typescript)
 2. [.gitignore](http://gitready.com/beginner/2009/01/19/ignoring-files.html)
