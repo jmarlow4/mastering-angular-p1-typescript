@@ -5,11 +5,11 @@
     constructor(private name: string) {}
 
     public move(distance: number = 0) {
-        console.log(`${this.name} moved ${distance} feet.`)
+      console.log(`${this.name} moved ${distance} feet.`)
     }
 
     protected eat(food: string) {
-        console.log(`${this.name} eats ${food}`)
+      console.log(`${this.name} eats ${food}`)
     }
 
   }
