@@ -17,3 +17,5 @@ Generics are type-flexible expressions and lets us create code that accepts a va
     resolve('a string'); 
   });
 ```
+
+[Generics TypeScript docs](https://www.typescriptlang.org/docs/handbook/generics.html)
