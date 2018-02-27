@@ -2,10 +2,10 @@
   // Enumerations (enums) aren't designed to store data.
   // They're designed to ENUMERATE a set of specific cases.
   enum Directions {
-    Up,
-    Down,
-    Left,
-    Right
+    Up = 'first',
+    Down = 'second',
+    Left = 'third',
+    Right = 'fourth'
   }
 
   // Can't do this because enum properties are read-only
@@ -13,8 +13,8 @@
   // Directions.Up = '2'
   // Directions.North = '5'
 
-  console.log(Directions.Up)
-  /*
+  console.log(Directions)
+  /* -- outputs --
   Directions = {
     '0': 'Up',
     '1': 'Down',

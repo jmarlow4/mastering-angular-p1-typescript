@@ -28,6 +28,12 @@ Variables are the basic "building blocks" of programming. The six basic primitiv
 
         console.log(obj[sym]); // "value"
         ```
+* [Union Types](https://www.typescriptlang.org/docs/handbook/advanced-types.html#union-types) - Let a variable accept many different types
+    *   ```
+        let unionTypeVar: bool | string = true
+
+        unionTypeVar = 'actually, false!'
+        ```
 ## Helpful Links
 
 [Basic Types -  TypeScript docs](https://www.typescriptlang.org/docs/handbook/basic-types.html)

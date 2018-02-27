@@ -9,6 +9,10 @@
 
   const myNull: null = null
 
+  /* -- Union Type -- */
+  let myStrOrNum: string | number = 24
+  myStrOrNum = 'Hello!'
+
   myStr += myNum
 
   // myBool = myNum
