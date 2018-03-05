@@ -28,30 +28,4 @@
 
   // 7. Invoke your new slime's "attack" method
 
-  interface Item {
-    name: string
-    sell(): void
-  }
-
-  interface Weapon extends Item {
-    durability: number
-  }
-
-  class Sword implements Weapon {
-
-    constructor(
-      public name: string,
-      public durability: number
-    ) {}
-
-    public slash() {
-      this.durability--
-      console.log(`Just slashed with ${this.name}`)
-    }
-
-    sell(): void {
-      console.log()
-    }
-  }
-
 }
