@@ -1,15 +1,13 @@
 {
   class Player {
 
-    public name: string
-    public playerClass: string
     private _isDead = false
     private _health = 100
 
     // demonstrate property parameters
     constructor(
-      name: string,
-      playerClass: string
+      public name: string,
+      public playerClass: string
     ) {
       this.name = name
       this.playerClass = playerClass
