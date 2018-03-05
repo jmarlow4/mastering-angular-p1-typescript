@@ -29,4 +29,10 @@
 
   const user = new Student('Jane', 'M.', 'User')
   user.introduceSelf()
+
+  function enrollPerson(person: Person) {
+    console.log(`${person.fullName} is enrolled!`)
+  }
+
+  enrollPerson(user)
 }

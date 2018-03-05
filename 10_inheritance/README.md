@@ -1,9 +1,11 @@
 # Part 1 - TypeScript
 ## 10 - Inheritance
 
-Inheritance is a classic object-oriented concept where one class is based on or "inherits from" another. A common example is how, if we're writing a game, the "Sword" class might inherit from a "Weapon" class that would then inherit from an "Item" class.
+Writing whole classes for everything would be painful and redundant. This is where code reuse comes in. Sometimes it makes sense for us to write "master classes" that let other classes inherit from it.
 
-In the constructor of the Item class, we declare a 'protected' property. That's a modifier that specifies that only child classes (classes that inherit from this one) can access this property. We also add a "sell" method.
+Inheritance is a classic object-oriented concept where one class is based on or "inherits" from another. A common example is how, if we're writing a game, the "Sword" class might inherit from a "Weapon" class that would then inherit from an "Item" class. For example, you can "sell" a sword, but you can sell any other weapon or item, whether its a battleaxe or a health potion. Instead of writing a "sell" method for every one of those classes, we create an "Item" class that has "sell" as one of it's methods.
+
+In the constructor of the Item class, we declare a 'protected' property. That's a modifier that specifies that only child classes (classes that inherit from this one) can access this property. We also add the "sell" method.
 ```
   class Item {
 
