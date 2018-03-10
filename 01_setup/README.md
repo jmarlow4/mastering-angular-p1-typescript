@@ -1,5 +1,5 @@
 # Part 1 - TypeScript
-## 0 - Setting Up the TypeScript Project
+## 1 - Setting Up the TypeScript Project
 
 Helpful tools to have in a TypeScript project
 
