@@ -19,7 +19,7 @@
     "no-empty": [false],
     "object-literal-shorthand": [false],
     "object-literal-sort-keys": [false],
-    "no-inferrable-types": [true],
+    "no-inferrable-types": [false],
     "variable-name": [
       true,
       "ban-keywords",

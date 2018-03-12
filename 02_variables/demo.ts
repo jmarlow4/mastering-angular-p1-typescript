@@ -1,7 +1,7 @@
 {
   const myNum: number = 42
 
-  let myBool: boolean = false
+  const myBool: boolean = false
 
   let myStr: string = 'my number is '
 
