@@ -13,10 +13,10 @@ Helpful tools to have in a TypeScript project
 
     * Project specific editor configurations!
 
-    * [Editor Config VS-Code Package](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+    * [Editor Config VS-Code Extension](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
 4. [tslint.json](https://palantir.github.io/tslint/rules/)
 
     * We get to decide what TS Lint complains about!
 
-    * [TSlint VS-Code Package](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
+    * [TSlint VS-Code Extension](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
