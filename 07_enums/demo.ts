@@ -2,10 +2,10 @@
   // Enumerations (enums) aren't designed to store data.
   // They're designed to ENUMERATE a set of specific cases.
   enum Directions {
-    Up = 'first',
-    Down = 'second',
-    Left = 'third',
-    Right = 'fourth'
+    Up,
+    Down,
+    Left,
+    Right
   }
 
   // Can't do this because enum properties are read-only

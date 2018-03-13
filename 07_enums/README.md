@@ -71,9 +71,9 @@ Enums let you "enumerate" a constrained, well-defined set of named constants
 ```
 * If computing requirements are tight and you really need a performance boost, use a "const enum"
 
-* "const enums" cut out the object "middle man" and are just a plain array under the hood
+* "const enums" cut out the object "middle man" and are just a plain arrays under the hood
 ```
-  enum CharacterClasses {
+  const enum CharacterClasses {
     Fighter,
     Mage,
     Cleric,
