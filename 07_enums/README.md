@@ -71,7 +71,7 @@ Enums let you "enumerate" a constrained, well-defined set of named constants
 ```
 * If computing requirements are tight and you really need a performance boost, use a "const enum"
 
-* "const enums" cut out the object "middle man" and are just a plain arrays under the hood
+* "const enums" cut out the object "middle man" and are just a numbers under the hood
 ```
   const enum CharacterClasses {
     Fighter,
@@ -81,7 +81,7 @@ Enums let you "enumerate" a constrained, well-defined set of named constants
   }
 
   // becomes...
-  [0, 1, 2, 3]
+  0, 1, 2, 3
 ```
 * Doing this is usually not necessary, but it's nice to know about it should the need arise.
 
