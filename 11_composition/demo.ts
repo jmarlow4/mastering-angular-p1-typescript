@@ -7,9 +7,9 @@
   }
 
   class Student implements Person {
-    
+
     private _fullName: string
-    
+
     constructor(
       public readonly firstName: string,
       public middleInitial: string,
