@@ -1,7 +1,7 @@
 {
   // 1. Create a class called "Insect."
   class Insect {
-    
+
     // 2. Create the constructor and have it take in a PRIVATE parameter called
     //    "_type" and have it typed to receive a string value.
     constructor(private _type: string) {}
