@@ -1,4 +1,4 @@
-// Import the Car class from the "solution_exports" barrel.
+// Import the Car class from the "exercise_exports" barrel.
 
 
 // Create a new instance of Car and construct it with a make of your choice.
