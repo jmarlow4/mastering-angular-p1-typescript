@@ -15,7 +15,7 @@
       public middleInitial: string,
       public lastName: string
     ) {
-        this._fullName = firstName + ' ' + middleInitial + ' ' + lastName
+      this._fullName = firstName + ' ' + middleInitial + ' ' + lastName
     }
 
     get fullName(): string {
