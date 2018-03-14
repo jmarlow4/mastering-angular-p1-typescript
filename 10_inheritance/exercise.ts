@@ -31,38 +31,5 @@
 
 
   // 9. Invoke the phone's logMemory and call methods
-  class Item {
 
-    constructor( protected readonly name: string ) {}
-
-    public sell(numCoins: number) {
-      console.log(`Just sold ${this.name} for ${numCoins} pieces of gold!`)
-    }
-  }
-
-  class Weapon extends Item {
-
-    constructor(
-      weaponName: string,
-      protected durability: number
-    ) {
-      super(weaponName)
-    }
-
-  }
-
-  class Sword extends Weapon {
-
-    public slash() {
-      this.durability--
-      console.log(`Just slashed with ${this.name}`)
-    }
-  }
-
-  const mySword = new Sword('cutlass', 120)
-  mySword.slash()
-  
-  // We inherit this all the way from the base Item class
-  mySword.sell(32)
-  
 }
