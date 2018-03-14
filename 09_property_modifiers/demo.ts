@@ -52,5 +52,4 @@
   if (myPlayer.isDead) {
     console.log(`${myPlayer.name} has died!`)
   }
-  
 }
