@@ -1,6 +1,6 @@
-// Define and export a class called "Car" 
+// Define and export a class called "Car"
 export class Car {
-  
+
   // Construct it with a public parameter property called "make" that takes a string
   constructor(public make: string) {}
 

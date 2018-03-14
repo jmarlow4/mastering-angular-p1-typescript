@@ -1,4 +1,4 @@
-// Define and export a class called "Car" 
+// Define and export a class called "Car"
 
 
   // Construct it with a public parameter property called "make" that takes a string
