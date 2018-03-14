@@ -7,7 +7,6 @@
 
 
     // 3. Create a logMemory method that logs out the memory to the console
-    
 
 
   // 4. Create a class called "Phone"that extends the "Computer" class
