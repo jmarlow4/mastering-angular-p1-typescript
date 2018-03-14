@@ -28,7 +28,7 @@
   //    condiments on it! I suggest ketchup and mustard.
   const myHotDog = new HotDog(['ketchup', 'mustard'])
 
-  // 7. Invoke myHotDog's listCondiment's method and watch your condiments.
+  // 7. Invoke myHotDog's listCondiments method and watch your condiments.
   myHotDog.listCondiments()
 
 }
